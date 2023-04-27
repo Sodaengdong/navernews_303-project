@@ -11,14 +11,6 @@ search = input('검색어를 입력해주세요 : ')
 #데이터프레임 내 header(변수명) 생성
 sheet.append(["검색어명", "뉴스 제목", "URL"])
 
-def makePgNum(num):
-    if num == 1:
-        return num
-    elif num == 0:
-        return num + 1
-    else:
-        return num + 9 * (num - 1)
-
 #1~2페이지까지 수집(20개)
 for p in range(1, 12, 10): 
     page = p
