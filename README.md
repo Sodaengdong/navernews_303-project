@@ -1,5 +1,18 @@
 # 삼쩜삼 과제 제출용 레퍼지토리
 
+## 환경설정(https://rswm-ju.tistory.com/2 참고)
+1. 파이썬 설치
+- www.python.org
+2. 비쥬얼 스튜디오(VS) code 를 설치
+- https://code.visualstudio.com/ 
+3. 사각형 모양의 확장 기능 아이콘을 클릭(Extensions)
+- python 검색 후 install
+- Python Extension Pack 검색 후 install
+4. 터미널에서 하단의 "엑셀 데이터 크롤링을 하기 위해 필요한 라이브러리" 차례대로 설치 
+- pip install requests
+- pip install BeautifulSoup4
+- pip install openpyxl
+
 ## 엑셀 데이터 크롤링을 하기 위해 필요한 라이브러리(설치 필요)
 - Requests : 웹사이트 url을 인식시킴으로써 데이터를 요청하고, 요청한 데이터를 받아 활용할 수 있도록 함 
 (pip install requests)
