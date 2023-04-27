@@ -34,4 +34,4 @@ for p in range(1, 12, 10):
 
         sheet.append([search, title, url])
 
-wb.save("navernews_삼쩜삼.xlsx")
+wb.save("navernews_삼쩜삼.csv")
