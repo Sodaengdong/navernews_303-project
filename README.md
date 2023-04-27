@@ -1,1 +1,1 @@
-# navernews_303-project
+# 삼쩜삼 과제 제출용 레퍼지토리
